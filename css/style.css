@@ -4,7 +4,7 @@ body {
 }
 /*sets nav styles*/
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
@@ -15,24 +15,20 @@ section {
   margin: 0 auto;
   width: 60%;
 }
-
-h1 {
-  font-family sans-serif;
-  font-size: 2em;
-}
-
+/*sets styles for the h1 inside of .example*/
 .example, h1 {
   padding-top: 30px;
-  text-align center;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 2em;
 }
-
-h3 {
-  font-size: 1.3em;
-}
-
+/*sets style of element box and text inside element*/
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
-  width: 100%;
+  margin: 10px 0;
+  font-size: 1.3em;
+}
+.different{
+  background-color:blue;
 }
