@@ -1,7 +1,8 @@
+/*sets original font-size to 14px*/
 body {
   font-size: 14px;
 }
-
+/*sets nav styles*/
 nav {
   background color: yellow;
   height: 100px;
@@ -9,7 +10,7 @@ nav {
   position: fixed;
   width: 100%;
 }
-
+/*makes everything in the section have no margin and centered and have a width of 60%*/
 section {
   margin: 0 auto;
   width: 60%;
@@ -20,7 +21,7 @@ h1 {
   font-size: 2em;
 }
 
-.example, h3 {
+.example, h1 {
   padding-top: 30px;
   text-align center;
 }
